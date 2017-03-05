@@ -2,72 +2,63 @@
 <html>
 
 <head>
-    <title>(second Users name)'s Preferences</title>
+    <title>{{collection.name2}}'s Preferences</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js">
+    </script>
+    <script src="static/main.js">
+    </script>
 </head>
 
 <body>
+    <h1>DecisionTrix!</h1>
+    <h2>{{collection.name2}}'s Opinions</h2>
+    <div>
 
-    <h1>(second users name)'s Opinions</h1>
-    <div>
-        <h3>(first option)'s Scores</h3>
-        <form action="/app.py">
-            (First criterion):<br>
-            <input type="text" name="ascore1">
-            <br> (second criterion):<br>
-            <input type="text" name="ascore2">
-            <br> (third criterion):<br>
-            <input type="text" name="ascore3">
-            <br> (Fourth criterion):<br>
-            <input type="text" name="ascore4">
+        <div id="e">
+            <h3>{{collection.option1}}'s Scores</h3> {{collection.cri1}}:
+            <input type="text" id="bscore1">
+            <br> {{collection.cri2}}:
+            <input type="text" id="bscore2">
+            <br> {{collection.cri3}}:
+            <input type="text" id="bscore3">
+            <br> {{collection.cri4}}:
+            <input type="text" id="bscore4">
             <br><br>
-            <input type="submit" value="Enter">
-        </form>
-    </div>
-    <div>
-        <h3>(second option)'s Scores</h3>
-        <form action="/app.py">
-            (First criterion):<br>
-            <input type="text" name="bscore1">
-            <br> (second criterion):<br>
-            <input type="text" name="bscore2">
-            <br> (third criterion):<br>
-            <input type="text" name="bscore3">
-            <br> (Fourth criterion):<br>
-            <input type="text" name="bscore4">
+
+            <h3>{{collection.option2}}'s Scores</h3> {{collection.cri1}}:
+            <input type="text" id="bscore5">
+            <br> {{collection.cri2}}:
+            <input type="text" id="bscore6">
+            <br> {{collection.cri3}}:
+            <input type="text" id="bscore7">
+            <br> {{collection.cri4}}:
+            <input type="text" id="bscore8">
             <br><br>
-            <input type="submit" value="Enter">
-        </form>
-    </div>
-    <div>
-        <h3>(third option)'s Scores</h3>
-        <form action="/app.py">
-            (First criterion):<br>
-            <input type="text" name="cscore1">
-            <br> (second criterion):<br>
-            <input type="text" name="cscore2">
-            <br> (third criterion):<br>
-            <input type="text" name="cscore3">
-            <br> (Fourth criterion):<br>
-            <input type="text" name="cscore4">
+
+            <h3>{{collection.option3}}'s Scores</h3> {{collection.cri1}}:
+            <input type="text" id="bscore9">
+            <br> {{collection.cri2}}:
+            <input type="text" id="bscore10">
+            <br> {{collection.cri3}}:
+            <input type="text" id="bscore11">
+            <br> {{collection.cri4}}:
+            <input type="text" id="bscore12">
             <br><br>
-            <input type="submit" value="Enter">
-        </form>
-    </div>
-    <div>
-        <h3>(fourth option)'s Scores</h3>
-        <form action="/app.py">
-            (First criterion):<br>
-            <input type="text" name="dscore1">
-            <br> (second criterion):<br>
-            <input type="text" name="dscore2">
-            <br> (third criterion):<br>
-            <input type="text" name="dscore3">
-            <br> (Fourth criterion):<br>
-            <input type="text" name="dscore4">
+
+            <h3>{{collection.option4}}'s Scores</h3> {{collection.cri1}}:
+            <input type="text" id="bscore13">
+            <br> {{collection.cri2}}:
+            <input type="text" id="bscore14">
+            <br> {{collection.cri3}}:
+            <input type="text" id="bscore15">
+            <br> {{collection.cri4}}:
+            <input type="text" id="bscore16">
             <br><br>
-            <input type="submit" value="Enter">
-        </form>
+            <input id="submit_scores" type="button" value="Enter" href="thirduser.html">
+        </div>
     </div>
+    <p></p>
     <a href="thirduser.html">Done</a>
 
 

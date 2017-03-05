@@ -2,72 +2,62 @@
 <html>
 
 <head>
-    <title>(first Users name)'s Preferences</title>
+    <title>{{collection.name1}}'s Preferences</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js">
+    </script>
+    <script src="static/main.js">
+    </script>
 </head>
 
 <body>
+    <h1>DecisionTrix!</h1>
+    <h2>{{collection.name1}}'s Opinions</h2>
+    <div>
+        <div id="e">
+            <h3>{{collection.option1}}'s Scores</h3> {{collection.cri1}}:
+            <input type="text" id="ascore1">
+            <br> {{collection.cri2}}:
+            <input type="text" id="ascore2">
+            <br> {{collection.cri3}}:
+            <input type="text" id="ascore3">
+            <br> {{collection.cri4}}:
+            <input type="text" id="ascore4">
+            <br><br>
 
-    <h1>(first users name)'s Opinions</h1>
-    <div>
-        <h3>(first option)'s Scores</h3>
-        <form action="/app.py">
-            (First criterion):<br>
-            <input type="text" name="ascore1">
-            <br> (second criterion):<br>
-            <input type="text" name="ascore2">
-            <br> (third criterion):<br>
-            <input type="text" name="ascore3">
-            <br> (Fourth criterion):<br>
-            <input type="text" name="ascore4">
+            <h3>{{collection.option2}}'s Scores</h3> {{collection.cri1}}:
+            <input type="text" id="ascore5">
+            <br> {{collection.cri2}}:
+            <input type="text" id="ascore6">
+            <br> {{collection.cri3}}:
+            <input type="text" id="ascore7">
+            <br> {{collection.cri4}}:
+            <input type="text" id="ascore8">
             <br><br>
-            <input type="submit" value="Enter">
-        </form>
-    </div>
-    <div>
-        <h3>(second option)'s Scores</h3>
-        <form action="/app.py">
-            (First criterion):<br>
-            <input type="text" name="bscore1">
-            <br> (second criterion):<br>
-            <input type="text" name="bscore2">
-            <br> (third criterion):<br>
-            <input type="text" name="bscore3">
-            <br> (Fourth criterion):<br>
-            <input type="text" name="bscore4">
+
+            <h3>{{collection.option3}}'s Scores</h3> {{collection.cri1}}:
+            <input type="text" id="ascore9">
+            <br> {{collection.cri2}}:
+            <input type="text" id="ascore10">
+            <br> {{collection.cri3}}:
+            <input type="text" id="ascore11">
+            <br> {{collection.cri4}}:
+            <input type="text" id="ascore12">
             <br><br>
-            <input type="submit" value="Enter">
-        </form>
-    </div>
-    <div>
-        <h3>(third option)'s Scores</h3>
-        <form action="/app.py">
-            (First criterion):<br>
-            <input type="text" name="cscore1">
-            <br> (second criterion):<br>
-            <input type="text" name="cscore2">
-            <br> (third criterion):<br>
-            <input type="text" name="cscore3">
-            <br> (Fourth criterion):<br>
-            <input type="text" name="cscore4">
+
+            <h3>{{collection.option4}}'s Scores</h3> {{collection.cri1}}:
+            <input type="text" id="ascore13">
+            <br> {{collection.cri2}}:
+            <input type="text" id="ascore14">
+            <br> {{collection.cri3}}:
+            <input type="text" id="ascore15">
+            <br> {{collection.cri4}}:
+            <input type="text" id="ascore16">
             <br><br>
-            <input type="submit" value="Enter">
-        </form>
+            <input id="submit_scores" type="button" value="Enter" href="seconduser.html">
+        </div>
     </div>
-    <div>
-        <h3>(fourth option)'s Scores</h3>
-        <form action="/app.py">
-            (First criterion):<br>
-            <input type="text" name="dscore1">
-            <br> (second criterion):<br>
-            <input type="text" name="dscore2">
-            <br> (third criterion):<br>
-            <input type="text" name="dscore3">
-            <br> (Fourth criterion):<br>
-            <input type="text" name="dscore4">
-            <br><br>
-            <input type="submit" value="Enter">
-        </form>
-    </div>
+    <p></p>
     <a href="seconduser.html">Done</a>
 
 

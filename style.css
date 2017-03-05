@@ -1,0 +1,85 @@
+body {
+    background: darkgrey;
+    font-family: Candara;
+    text-align: center;
+}
+
+h1 {
+    color: aquamarine;
+}
+
+h2 {
+    color: white;
+}
+
+h3 {
+    color: #b3ffe6;
+}
+
+h4 {
+    color: white;
+}
+a {
+  text-align: center;
+  font-family: Candara;
+  font-size: 16px;
+  font-weight: dimgray;
+  text-decoration: none;
+  width: 100%;
+  background-color: #b3ffe6;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+a:hover{
+  background-color: aquamarine;
+}
+
+#final {
+    color: white;
+    font-size: 18px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type=text], select {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=button] {
+    font-family: Candara;
+    font-size: 16px;
+    font-weight: dimgray;
+    width: 40%;
+    background-color: #b3ffe6;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+
+input[type=button]:hover {
+    background-color: aquamarine;
+}
+
+#e {
+    color: white;
+    font-weight: bold;
+    width: 500px;
+    text-align: right;
+    padding-left: 0%;
+}

@@ -3,21 +3,28 @@
 
 <head>
     <title>Your Decisions</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js">
+    </script>
+    <script src="static/main.js">
+    </script>
 </head>
 
 <body>
-
-    <h1>Here's your group's top pick:</h1>
-    <h2>(the chosen option)</h2>
-    <div>
-        <h3>Your group's preferences (in order)</h3>
+    <h1>DecisionTrix!</h1>
+    <h2>Here's your group's top pick:</h2>
+    <h3>{{collection.}}</h3>
+    <div id="final">
+        <h4>Your group's preferences (in order):</h4>
         <ol>
-            <li>(first choice)</li>
-            <li>(second choice)</li>
-            <li>(third choice)</li>
-            <li>(fourth choice)</li>
+            <li>{{collection.}}</li>
+            <li>{{collection.}}</li>
+            <li>{{collection.}}</li>
+            <li>{{collection.}}</li>
         </ol>
     </div>
+    <p></p>
+    <a href="index.html">Restart</a>
 
 </body>
 

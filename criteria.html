@@ -3,28 +3,31 @@
 
 <head>
     <title>Criteria</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js">
+    </script>
+    <script src="static/main.js">
+    </script>
 </head>
 
 <body>
-
+    <h1>DecisionTrix!</h1>
     <h2>Enter your criteria and it's weight
       (on a scale of 1-10, 10 being the most important):</h2>
-    <form action="/app.py">
+    <div id="e">
         First Criterion:
-        <input type="text" name="firstcriterion"> Weight:
-        <input type="text" name="firstweight">
-        <br> Second Criterion:
-        <input type="text" name="secondcriterion"> Weight:
-        <input type="text" name="secondweight">
-        <br> Third Criterion:
-        <input type="text" name="thirdcriterion"> Weight:
-        <input type="text" name="thirdweight">
-        <br> Fourth Criterion:
-        <input type="text" name="fourthcriterion"> Weight:
-        <input type="text" name="fourthweight">
+        <input type="text" id="cri1"><br> Weight:
+        <input type="text" id="weight1"><br> Second Criterion:
+        <input type="text" id="cri2"><br> Weight:
+        <input type="text" id="weight2"><br> Third Criterion:
+        <input type="text" id="cri3"><br> Weight:
+        <input type="text" id="weight3"><br> Fourth Criterion:
+        <input type="text" id="cri4"><br> Weight:
+        <input type="text" id="weight4">
         <br><br>
-        <input type="submit" value="Enter">
-    </form>
+        <input id="submit_criteria" type="button" value="Enter" href="firstuser.html">
+    </div>
+    <p></p>
     <a href="firstuser.html">Done</a>
 
 

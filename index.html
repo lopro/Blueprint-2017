@@ -3,30 +3,30 @@
 
 <head>
     <title>Welcome!</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js">
+    </script>
+    <script src="static/main.js">
+    </script>
 </head>
-<style>
-    body {
-      background: darkgrey;
-      font-family: ;
-    }
-</style>
 
 <body>
 
-    <h1>Welcome to Insert giyt Name Here</h1>
-    <h2>Enter your team's names:</h2>
-    <form action="/app.py">
-        First Person:<br>
-        <input type="text" name="firstperson">
-        <br> Second Person:<br>
-        <input type="text" name="secondperson">
-        <br> Third Person:<br>
-        <input type="text" name="thirdperson">
-        <br> Fourth Person:<br>
-        <input type="text" name="fourthperson">
+    <h1>Welcome to DecisionTrix!</h1>
+    <h2>Enter your team members' names:</h2>
+    <div id="e">
+        First Person:
+        <input type="text" id="name1">
+        <br> Second Person:
+        <input type="text" id="name2">
+        <br> Third Person:
+        <input type="text" id="name3">
+        <br> Fourth Person:
+        <input type="text" id="name4">
         <br><br>
-        <input type="submit" value="Enter">
-    </form>
+        <input id="submit_names" type="button" value="Enter" href="options.html">
+    </div>
+    <p></p>
     <a href="options.html">Done</a>
 
 </body>

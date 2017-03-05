@@ -3,23 +3,29 @@
 
 <head>
     <title>Options</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js">
+    </script>
+    <script src="static/main.js">
+    </script>
 </head>
 
 <body>
-
+    <h1>DecisionTrix!</h1>
     <h2>Enter your options:</h2>
-    <form action="/app.py">
-        First Option:<br>
-        <input type="text" name="firstoption">
-        <br> Second Option:<br>
-        <input type="text" name="secondoption">
-        <br> Third Option:<br>
-        <input type="text" name="thirdoption">
-        <br> Fourth Option:<br>
-        <input type="text" name="fourthoption">
+    <div id="e">
+        First Option:
+        <input type="text" id="item1">
+        <br> Second Option:
+        <input type="text" id="item2">
+        <br> Third Option:
+        <input type="text" id="item3">
+        <br> Fourth Option:
+        <input type="text" id="item4">
         <br><br>
-        <input type="submit" value="Enter">
-    </form>
+        <input id="submit_options" type="button" value="Enter" href="criteria.html">
+    </div>
+    <p></p>
     <a href="criteria.html">Done</a>
 
 </body>
