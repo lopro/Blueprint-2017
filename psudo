@@ -1,0 +1,20 @@
+print "Team members?"
+var users []
+var us = -1
+if (#add_button.ispressed){
+    users.append(user.input)
+    us++
+}
+if (#done_button.ispressed)
+    next page
+
+print "What catergories would you like"
+var cats = []
+var cs = -1
+if (#add_button.ispressed){
+    cats.append(user.input)
+    cs++
+}
+
+var data = [us][cs]
+for (int i = 0; i<us; )
